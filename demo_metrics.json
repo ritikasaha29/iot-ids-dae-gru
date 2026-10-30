@@ -1,0 +1,26 @@
+{
+  "stage1": {
+    "accuracy": 0.9695,
+    "f1": 0.9292,
+    "precision": 0.8677,
+    "recall": 1.0,
+    "fnr": 0.0,
+    "latency_ms": 0.022
+  },
+  "stage2": {
+    "accuracy": 0.7965,
+    "f1": 0.0194,
+    "precision": 0.25,
+    "recall": 0.0101,
+    "fnr": 0.9899,
+    "latency_ms": 0.007
+  },
+  "combined": {
+    "accuracy": 0.8025,
+    "f1": 0.02,
+    "precision": 1.0,
+    "recall": 0.0101,
+    "fnr": 0.9899,
+    "latency_ms": 0.029
+  }
+}

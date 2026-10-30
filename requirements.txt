@@ -1,0 +1,18 @@
+# IoT IDS — Python Requirements
+# ================================
+# Core (required)
+numpy>=1.24
+pandas>=1.5
+scikit-learn>=1.2
+scipy>=1.10
+
+# Deep learning (optional — model falls back to sklearn if not available)
+tensorflow>=2.12          # or: tensorflow-cpu>=2.12  (lighter)
+# keras>=2.12             # included with TF 2.x
+
+# Visualisation (optional — for plotting results)
+matplotlib>=3.6
+seaborn>=0.12
+
+# Utilities
+pathlib2; python_version < "3.4"
